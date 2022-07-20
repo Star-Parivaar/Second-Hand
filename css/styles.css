@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Edu+TAS+Beginner&display=swap');
+body{
+	margin: 0px;
+}
+
+header{
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+	background-color:  rgb(145, 79, 59);
+}
+
+
+/*h1{ 
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Cormorant SC', serif;
+}
+.cont{
+	margin-left: 10px;
+}
+.cont2{
+	margin-right: 10px;
+}
+
+.head1{
+	
+	font-size: 25px;
+	position: relative;
+	bottom: 4px;
+
+	
+}
+.hand{
+	font-size: 40px;
+}
+.shop{
+	width: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.vl {
+  float: left;
+  border-left: 2px solid green;
+  height: 40px;
+  border-color: rgb(145, 79, 59) ;
+  margin-bottom: 10px;
+}
+.v2 {
+  float: left;
+  border-left: 2px solid green;
+  height: 40px;
+  border-color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.login{
+	position: relative;
+	top:7px;
+	right: 10px;
+	margin-top: 50px;
+	font-size: 25px;
+	padding: 10px;
+ }
