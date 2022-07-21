@@ -70,3 +70,83 @@ header{
 	font-size: 25px;
 	padding: 10px;
  }
+ .footer-heading{
+    font-weight: normal;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #914f3b;
+    color: white;
+    padding: 0px 0 20px 0px;
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-about{
+    line-height: 30px;
+}
+footer p{
+    /* line-height: 10px; */
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-row{
+    display: flex;
+}
+.footer-col{
+    width: 33.33%;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+   
+    
+}
+.border-right{
+    border-right: solid 2px white;
+    height: 250px;
+}
+
+.footer-links a{
+    padding: 3% 3% 0 3%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer-links{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.back-to-top{
+    background-color: #c48c7b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.back-to-top-link{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-links img{
+    
+    height: 40px;
+}
+
+.footer-end{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+.border-right-p {
+    border-right: solid 2px white;
+}
+
